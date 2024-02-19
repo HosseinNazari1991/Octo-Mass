@@ -1,0 +1,88 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "OctoMass/1.0": {
+        "dependencies": {
+          "Grasshopper": "8.4.24044.15001",
+          "System.Drawing.Common": "8.0.2"
+        },
+        "runtime": {
+          "OctoMass.gha": {}
+        }
+      },
+      "Grasshopper/8.4.24044.15001": {
+        "dependencies": {
+          "RhinoCommon": "8.4.24044.15001"
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "RhinoCommon/8.4.24044.15001": {},
+      "System.Drawing.Common/8.0.2": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.224.6803"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OctoMass/1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Grasshopper/8.4.24044.15001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TL7eR9z+GCimxLcBSuRiDQzYDoaF7rCdglnGCEYJgJXDBX8fEJKyA78aYp42gcOYvxL6RKMkzz/imum7MnKpVg==",
+      "path": "grasshopper/8.4.24044.15001",
+      "hashPath": "grasshopper.8.4.24044.15001.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "RhinoCommon/8.4.24044.15001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vl/WhpOr4sLTvnhKKtyFPgrT2399kHX1UEThzUEOoHEzrnT9C9llL2x6KzYd8Z1qzAr1Xa8WDsPyec+4Bd6FyQ==",
+      "path": "rhinocommon/8.4.24044.15001",
+      "hashPath": "rhinocommon.8.4.24044.15001.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oDedGrYVyzvtGZhgtURpeneHq9D3HQtrvU7q6iCRa+BbIXvTZayGFo0iK3b7qHrwQ/OOAn9B0ghzQH6AbW5LHg==",
+      "path": "system.drawing.common/8.0.2",
+      "hashPath": "system.drawing.common.8.0.2.nupkg.sha512"
+    }
+  }
+}

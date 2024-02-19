@@ -1,0 +1,12 @@
+D:\04_plugins\Octo-Mass\OctoMass\bin\Debug\net48\OctoMass.gha
+D:\04_plugins\Octo-Mass\OctoMass\bin\Debug\net48\OctoMass.pdb
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net48\OctoMass.csproj.AssemblyReference.cache
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net48\OctoMass.GeneratedMSBuildEditorConfig.editorconfig
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net48\OctoMass.AssemblyInfoInputs.cache
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net48\OctoMass.AssemblyInfo.cs
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net48\OctoMass.csproj.CoreCompileInputs.cache
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net48\OctoMass.sourcelink.json
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net48\OctoMass.gha
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net48\OctoMass.pdb
+D:\04_plugins\Octo-Mass\OctoMass\bin\Debug\net48\System.Drawing.Common.dll
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net48\OctoMass.csproj.CopyComplete

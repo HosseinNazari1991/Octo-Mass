@@ -1,0 +1,13 @@
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net7.0\OctoMass.csproj.AssemblyReference.cache
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net7.0\OctoMass.GeneratedMSBuildEditorConfig.editorconfig
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net7.0\OctoMass.AssemblyInfoInputs.cache
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net7.0\OctoMass.AssemblyInfo.cs
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net7.0\OctoMass.csproj.CoreCompileInputs.cache
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net7.0\OctoMass.sourcelink.json
+D:\04_plugins\Octo-Mass\OctoMass\bin\Debug\net7.0\OctoMass.deps.json
+D:\04_plugins\Octo-Mass\OctoMass\bin\Debug\net7.0\OctoMass.gha
+D:\04_plugins\Octo-Mass\OctoMass\bin\Debug\net7.0\OctoMass.pdb
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net7.0\OctoMass.gha
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net7.0\refint\OctoMass.gha
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net7.0\OctoMass.pdb
+D:\04_plugins\Octo-Mass\OctoMass\obj\Debug\net7.0\ref\OctoMass.gha

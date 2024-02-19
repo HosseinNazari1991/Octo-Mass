@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "dgSpecHash": "zAQDJwaeOETA13xfTywgrdP8yrSZEUOZplJcmJwAlGRwkW5IEd1z4017Zv/IadR7G9WQj+rs1TZF8iP1qPR+VQ==",
+  "success": true,
+  "projectFilePath": "D:\\04_plugins\\Octo-Mass\\OctoMass\\OctoMass.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hossein\\.nuget\\packages\\grasshopper\\8.4.24044.15001\\grasshopper.8.4.24044.15001.nupkg.sha512",
+    "C:\\Users\\Hossein\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Hossein\\.nuget\\packages\\rhinocommon\\8.4.24044.15001\\rhinocommon.8.4.24044.15001.nupkg.sha512",
+    "C:\\Users\\Hossein\\.nuget\\packages\\system.drawing.common\\8.0.2\\system.drawing.common.8.0.2.nupkg.sha512",
+    "C:\\Users\\Hossein\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Hossein\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Hossein\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Grasshopper 8.4.24044.15001' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Grasshopper",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RhinoCommon 8.4.24044.15001' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "RhinoCommon",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

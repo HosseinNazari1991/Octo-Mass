@@ -1,0 +1,407 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Grasshopper/8.4.24044.15001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[8.4.24044.15001]"
+        },
+        "compile": {
+          "lib/net48/GH_IO.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Grasshopper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/_._": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net48/Grasshopper.targets": {}
+        }
+      },
+      "RhinoCommon/8.4.24044.15001": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Ed.Eto.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Eto.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/_._": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net48/RhinoCommon.targets": {}
+        }
+      },
+      "System.Drawing.Common/8.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net462/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      }
+    },
+    "net7.0": {
+      "Grasshopper/8.4.24044.15001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[8.4.24044.15001]"
+        },
+        "compile": {
+          "lib/net48/GH_IO.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Grasshopper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/_._": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net48/Grasshopper.targets": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "RhinoCommon/8.4.24044.15001": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Ed.Eto.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Eto.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/_._": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net48/RhinoCommon.targets": {}
+        }
+      },
+      "System.Drawing.Common/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Grasshopper/8.4.24044.15001": {
+      "sha512": "TL7eR9z+GCimxLcBSuRiDQzYDoaF7rCdglnGCEYJgJXDBX8fEJKyA78aYp42gcOYvxL6RKMkzz/imum7MnKpVg==",
+      "type": "package",
+      "path": "grasshopper/8.4.24044.15001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net48/Grasshopper.targets",
+        "grasshopper.8.4.24044.15001.nupkg.sha512",
+        "grasshopper.nuspec",
+        "grasshopper.png",
+        "lib/net48/GH_IO.dll",
+        "lib/net48/GH_IO.xml",
+        "lib/net48/Grasshopper.dll",
+        "lib/net48/Grasshopper.xml"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "sha512": "9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "RhinoCommon/8.4.24044.15001": {
+      "sha512": "vl/WhpOr4sLTvnhKKtyFPgrT2399kHX1UEThzUEOoHEzrnT9C9llL2x6KzYd8Z1qzAr1Xa8WDsPyec+4Bd6FyQ==",
+      "type": "package",
+      "path": "rhinocommon/8.4.24044.15001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Eto-LICENSE.txt",
+        "build/net48/RhinoCommon.targets",
+        "lib/net48/Ed.Eto.dll",
+        "lib/net48/Ed.Eto.xml",
+        "lib/net48/Eto.dll",
+        "lib/net48/Eto.xml",
+        "lib/net48/Rhino.UI.dll",
+        "lib/net48/RhinoCommon.dll",
+        "lib/net48/RhinoCommon.xml",
+        "rhinocommon.8.4.24044.15001.nupkg.sha512",
+        "rhinocommon.nuspec",
+        "rhinocommon.png"
+      ]
+    },
+    "System.Drawing.Common/8.0.2": {
+      "sha512": "oDedGrYVyzvtGZhgtURpeneHq9D3HQtrvU7q6iCRa+BbIXvTZayGFo0iK3b7qHrwQ/OOAn9B0ghzQH6AbW5LHg==",
+      "type": "package",
+      "path": "system.drawing.common/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.pdb",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.pdb",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/net7.0/System.Drawing.Common.dll",
+        "lib/net7.0/System.Drawing.Common.pdb",
+        "lib/net7.0/System.Drawing.Common.xml",
+        "lib/net8.0/System.Drawing.Common.dll",
+        "lib/net8.0/System.Drawing.Common.pdb",
+        "lib/net8.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.pdb",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.drawing.common.8.0.2.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Grasshopper >= 8.4.24044.15001",
+      "System.Drawing.Common >= 8.0.2"
+    ],
+    "net7.0": [
+      "Grasshopper >= 8.4.24044.15001",
+      "System.Drawing.Common >= 8.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Hossein\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\04_plugins\\Octo-Mass\\OctoMass\\OctoMass.csproj",
+      "projectName": "OctoMass",
+      "projectPath": "D:\\04_plugins\\Octo-Mass\\OctoMass\\OctoMass.csproj",
+      "packagesPath": "C:\\Users\\Hossein\\.nuget\\packages\\",
+      "outputPath": "D:\\04_plugins\\Octo-Mass\\OctoMass\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "configFilePaths": [
+        "C:\\Users\\Hossein\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48",
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Grasshopper": {
+            "include": "Compile, Build",
+            "target": "Package",
+            "version": "[8.4.24044.15001, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[8.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      },
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "Grasshopper": {
+            "include": "Compile, Build",
+            "target": "Package",
+            "version": "[8.4.24044.15001, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[8.0.2, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Grasshopper 8.4.24044.15001' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Grasshopper",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RhinoCommon 8.4.24044.15001' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "RhinoCommon",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
